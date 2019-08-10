@@ -1,5 +1,5 @@
 import React from 'react'
-
+import AdsListContainer from './components/AdsListContainer'
 
 function App() {
   return (
@@ -8,14 +8,10 @@ function App() {
         Better than eBay!!! ;)
       </header>
       <main>
-        <ul>
-          <li>Ad:1 Price:1</li>
-          <li>Ad:1 Price:1</li>
-          <li>Ad:1 Price:1</li>
-        </ul>
+        <AdsListContainer />
       </main>
     </div>
   )
 }
 
-export default App;
+export default App
