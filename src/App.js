@@ -1,12 +1,19 @@
 import React from 'react'
-import './App.css'
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
+      <header>
         Better than eBay!!! ;)
       </header>
+      <main>
+        <ul>
+          <li>Ad:1 Price:1</li>
+          <li>Ad:1 Price:1</li>
+          <li>Ad:1 Price:1</li>
+        </ul>
+      </main>
     </div>
   )
 }
