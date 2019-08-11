@@ -1,23 +1,12 @@
-const initialState  = [
-    {
-      title: 'Ad1',
-      price: 1000
-    },
-    {
-      title: 'Ad2',
-      price: 2000
-    },
-    {
-      title: 'Ad3',
-      price: 3000
-    }
-  ]
+import { ALL_ADS } from '../actions'
 
-  const reducer = (state = initialState, action = {}) => {
-    switch (action.type) {
-    default:
-      return state
-    }
+const reducer = (state = [], action = {}) => {
+  switch (action.type) {
+  case ALL_ADS:
+    return action.payload
+  default:
+    return state
   }
-  
-  export default reducer
+}
+
+export default reducer

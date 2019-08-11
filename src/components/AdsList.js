@@ -2,8 +2,8 @@ import React from 'react'
 // import { connect } from 'react-redux'
 
 export default function Ad(props) {
-  const { ads } = props.list
-  console.log('Ad/props test:', props)
+  const { ads } = props.adslist
+  console.log('list test:', props)
 
   return (
     <ul>
